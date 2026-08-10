@@ -85,17 +85,11 @@ Giởi thiệu sơ lược về ẩm thực Việt Nam
 
 
 
-
-
-## Gioi thiệu về featured 
-
-Giới thiệu các món ăn nổi bật ngon miệng 
-
-
-
 ## Phân loại đặc điểm của các món ăn ở miền Bắc 
 
 -   Phân rã thành các card nhỏ ô vuông để kẽ 
+-   Khi tui nhấn vào nó sẽ ở dạng chi tiết khi tui trỏ chuột vào và hiển thị visit more để nó hiển thị ra kết quả chi tiết  hoặc nhấn vào 
+
 -   Có hiệu ứng hover zoom chuyển màu khi trỏ chuột đến 
 -   Có hiệu ứng xem chi tiết khi nhấn chỗ chi tiết --> hiển thị toàn bộ nội dung
 -   Thể hiện hương vị thành phần của món ăn  

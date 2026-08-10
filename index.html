@@ -5,19 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vietnamese cuisines</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="js/style.css">
 </head>
 
 <body>
     <header>
 
-        
+
 
         <nav id="navbar">
             <div class="logo">
-                <span>🍜</span>
-                <p class="logo-text">Vietnamese Cuisines</p>
+                <a href="/index.html">
+                    <span class="logo-icon">🍜</span>
+                    <span class="logo-text">Vietnamese Cuisines</span>
+                </a>
             </div>
+
             <div class="nav-menu">
                 <ul>
                     <li><a href="#hero">Home</a></li>
@@ -28,16 +31,17 @@
                     <li> <a href="#footer">Contact</a></li>
                 </ul>
             </div>
-            <div class="nav-action">
-                <button>🔍</button>
 
-                <form>
-                    <label for="language-select"></label>
+            <div class="nav-action">
+                <input type ="text" placeholder="Tìm kiếm món ăn?">
+                <button class="search-button">🔍</button>
+
+                <div class="language-select">
                     <select id="language-select" name="language">
-                        <option value="english">english</option>
+                        <option value="english">English</option>
                         <option value="Vietnamese">Tiếng Việt</option>
                     </select>
-                </form>
+                </div>
 
             </div>
         </nav>
@@ -51,34 +55,89 @@
     <main>
 
         <section id="hero">
-            <div class="hero-background">
-
-                <img src="#" alt="Một món ăn đặc sắc của Việt Nam bày trí đẹp mắt">
-
-
-
+            <div class="hero-image">
+                <img src="assets/images/hero_img.png" alt="Một món ăn đặc sắc của Việt Nam bày trí đẹp mắt"
+                    style="size:100%" title=" Vietnamese cuisines in Vietnam">
             </div>
-            <div class="content-hero" style = "background-image:url('#');width: 400px;height:350px">
-                <h1>Khám phá tinh hoa ẩm thực Việt Nam</h1>
-                <p>Hành trình khám phá tinh hoa ẩm thực ba miền Bắc-Trung-Nam cùng những món ăn đặc sắc.</p>
 
-                <button> Explore dishes </button>       
-                <button>Learn more </button> 
-
-
+            <div class="hero-content">
+                <button class="explore"><a href="#about">Explore</a> </button>
+                <button class="learn"><a href="#gallery">Learn</a> </button>
             </div>
+
         </section>
+
         <section id="about">
+            
+            <div class="about-heading">
+                <span>ABOUT VIETNAMESE CUISINES</span>
+                <hr>
+               
+            </div>
+
+            <div class="about-content">
+                <h3>Ẩm thực Việt Nam</h3>
+
+                <p>Ẩm thực Việt Nam là sự kết hợp hài hòa giữa hương vị, nguyên liệu
+                    và văn hóa. Mỗi món ăn không chỉ mang đến một trải nghiệm vị giác
+                    độc đáo mà còn kể một câu chuyện về con người và vùng đất nơi nó
+                    được tạo nên. </p>
+
+                <p>Từ những món ăn thanh nhẹ, tinh tế của miền Bắc, những hương vị
+                    đậm đà và cay nồng của miền Trung đến sự ngọt ngào, phong phú
+                    của miền Nam, mỗi vùng miền đều mang trong mình một nét đặc trưng
+                    riêng.</p>
+
+
+            </div>
+            <div class="about-image">
+                <img src="https://i0.wp.com/vietnamtravel.in/wp-content/uploads/2022/08/vietnamese-food.png?fit=1024%2C1024&quality=80&ssl=1"
+                    alt="Âm thực Việt Nam" title="About-image">
+            </div>
 
 
 
 
         </section>
-        <section id="featured"></section>
-        <section id="north"></section>
-        <section id="south"></section>
-        <section id="central"></section>
-        <section id="gallery"></section>
+
+        <section id="north">
+
+
+
+
+
+
+
+
+
+
+        </section>
+        <section id="south">
+            
+            
+            
+            
+
+
+
+
+
+
+        </section>
+        <section id="central">
+
+
+
+
+
+        </section>
+        <section id="gallery">
+
+
+
+
+
+        </section>
 
 
     </main>
